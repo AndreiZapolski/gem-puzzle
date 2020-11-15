@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>GEM PUZZLE</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+<body>
+
+<div class="button"><input type="button" id="newGame" value="Start New Game"></div>
+<table id="table"></table>
+<div class="settings_block">
+<label>ROWS: <input type="text" name="rows" id="rows" value="4" size="2"></label>
+<label>COLUMNS: <input type="text" name="columns" id="columns" value="4" size="2"></label>
+</div>
+<div class="touches">
+<p>Подсчет касаний:</p> <span id="moves">0</span>
+</div>
+<!-- Секундомер -->
+<form name=MyForm class="time_form">
+	<input class="time" name=stopwatch size=5 value="00:00:00.00" disabled>
+</form>
+<!-- -->
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

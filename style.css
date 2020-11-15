@@ -1,0 +1,99 @@
+body{
+  background: linear-gradient(to top, #b791fd, #9b2ef5);
+  height: 100vh;
+}
+
+#table{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+
+.button{
+  margin: 40px 0 50px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#newGame{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  height: 50px;
+  width: 140px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  background:linear-gradient(to top, #b791fd, #9b2ef5);
+  border-radius: 10px;
+  border: 1px solid white;
+}
+#newGame:hover{
+  background:linear-gradient(to top, #945bff, #920cff);
+}
+.settings_block{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+input{
+  background: #b791fd;
+}
+#rows{
+  margin-right:15px ;
+}
+#columns{
+  margin-right:15px ;
+}
+.touches{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tile {
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(5, 5, 5);
+  font-size: 30px;
+  text-align: center;
+  background:linear-gradient(to top, #b791fd, #9b2ef5);
+  color:white;
+  cursor: pointer;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+ transition: all 0.2s;
+}
+.tile:hover{
+  background: linear-gradient(to top, #8a4ff7, #7513c5);
+}
+
+#moves {
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+  border:none;
+  background: #b791fd;
+  font-weight: bold;
+  color:white;
+}
+
+.time_form{
+  display: flex;
+  justify-content: center;
+}
+.time{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
